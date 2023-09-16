@@ -1,0 +1,448 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: K2D;
+    src: url(fonte/K2D/K2D-Regular.ttf);
+}
+
+body {
+    font-family: K2D;
+    background-color: #0D0D0D;
+}
+
+/*Aqui irei  organizar a navbar*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #011F26;
+    position: sticky;
+    top: 0;
+    max-width: 1800px;
+    max-height: 800px;
+    margin: auto;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.logo  > img {
+   height: 85px;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.navbar > div >  a {
+    margin-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.navbar > div > a:hover {
+    animation-duration: 0.3s;
+    color: #04D9B2;
+}
+
+
+
+/*Aqui irei organizar a minha hero*/
+.hero {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 890px;
+    max-width: 1800px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.details-hero {
+    background-image: url("Imagens/vidraças-hero.png");
+    max-width: 1800px;
+    margin: auto;
+}
+.text-hero > h1{
+    font-size: 65px;
+    color: white;
+}
+.text-hero > p {
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 100px;
+}
+.img-hero > img{
+    height: 700px;
+    border-radius: 50%;
+}
+
+
+/*Aqui irei tratar da sessao sobre jardel*/
+.sobre-jardel {
+    background-image: url("Imagens/ligaçoes\ quimicas.png");
+    max-width: 1800px;
+    height: 880px;
+    margin: auto;
+    padding-top: 100px;
+}
+.text-sjardel > h1{
+    font-size: 85px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.text-sjardel > p {
+    font-size: 32px;
+    margin: 100px 50px ;
+    text-align: center;
+}
+
+
+
+/*Aqui irei tratar da sessao areas de interessse*/
+.areas-interesse {
+    background-color: white;
+    max-width: 1800px;
+    margin: auto;
+}
+.text-ai {
+    color: white;
+    background-color: #262626;
+    max-width: 1800px;
+    font-size: 64px;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.botoes-ai {
+    background-color: #262626;
+    max-width: 1800px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+}
+.botoes-ai > div > a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.botoes-ai >  div > a:hover {
+    font-size: 21px;
+    color: #04D9B2;
+    transition-duration: 0.5s;
+}
+.artigos {
+    background-color: white;
+    max-width: 1800px;
+    margin: auto;
+}
+.artigos > div {
+    height: 500px;
+    max-width: 1800px;
+    margin: auto;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.artigos > div > article > h2 {
+    font-size: 40px;
+    margin: 20px;
+}
+.artigos > div > article > p {
+    font-size: 28px;
+    margin: 10px 20px;
+}
+.A1 {
+    background-image: url('Imagens/A1.png');
+    
+}
+.A2 {
+    background-image: url('Imagens/A2.png');
+}
+.A3 {
+    background-image: url('Imagens/A3.png');
+    text-align: center;
+}
+
+
+
+/*Aqui ireie organizar a sessao sobre a educaçao*/
+
+.educaçao {
+    background-image: url('Imagens/Educaçao.png');
+    height: 1025px;
+    max-width: 1800px;
+    margin: auto;
+}
+.details-educaçao {
+    height: 1025px;
+    background-color:  rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.h1-educaçao {
+    font-size: 75px;
+    color: white;
+    margin: 0px 15px;
+}
+.p-educaçao {
+    font-size: 32px;
+    max-width: 500px;
+    color: white;
+    margin: 0px 15px;
+    
+}
+
+
+
+/*Aqui irei organizar a parte sobre as disciplinas*/
+.disciplinas {
+    background-color: white;
+    max-width: 1800px;
+    height: 1025px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+}
+.h1-disciplinas {
+    color: #0D0D0D;
+    margin-bottom: 30px;
+    font-size: 64px;
+}
+.table > table{
+    border-collapse: collapse;
+}
+.cabeçalho-tabela > th{
+    background-color: #262626;
+    height: 50px;
+    width: 300px;
+}
+.principal-tabela > tr > th {
+    width: 300px;
+    height: 50px;
+}
+.fila-clara {
+    background-color: #04d9b2af;
+}
+.fila-escura {
+    background-color: #037e8cbb;
+}
+
+
+
+/*Aqui irei tratar da parte dos contatos*/
+footer {
+    background-color: #011F26;
+    max-width: 1800px;
+    margin: auto;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    border-top: 10px solid #03A6A6;
+}
+.Contatos {
+    width: 1800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Contatos div > picture > img{
+    height: 150px;
+    margin-left: 60px ;
+}
+.Contatos > div > h3 {
+    margin: 10px 60px;
+    color: white;
+    font-size: 20px;
+}
+.Contatos > div > h3 >i {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+
+
+/*Aqui irei organizar a parte sobre os projetos de pesquisa*/
+.projetos {
+    background-image: url("Imagens/fundo-projeto.png");
+    max-width: 1800px;
+    height: 1000px;
+    margin: auto;
+
+}
+.details-projeto {
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 1800px;
+    height: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.h1-projetos {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 64px;
+    color: white;
+    padding-top: 100px;
+}
+.card {
+    margin: 20px;
+    height: 600px;
+    max-width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    
+}
+.card-image{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-image: url("Imagens/card1.jpg");
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.details-card-image {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 200px;
+    max-width: 450px;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.text-card {
+    margin: 30px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+/*AQUI ESTOU CUIDANDO DE TODAS AD MIDIAS QUERIES*/
+@media only screen and (max-width: 500px){
+    /*parte sobre jardel*/
+    .sobre-jardel {
+        height: 1300px;
+    }
+    /*parte da areas de interessses*/
+    .artigos > div {
+        height: 750px;
+    }
+    /*Parte da educaçao*/
+    .h1-educaçao {
+        font-size: 50px !important;
+    }
+    /*Parte das disciplinas*/
+    .disciplinas {
+        font-size: 10px;
+    }
+    .cabeçalho-tabela > th{
+        background-color: #262626;
+        height: 50px;
+        width: 200px
+    }
+    .principal-tabela > tr > th {
+        width: 200px;
+        height: 40px;
+    }
+    /*parte dos contatos*/
+    .Contatos div > picture > img{
+        height: 60px;
+        margin-left: 60px ;
+    }
+   .Contatos > div > h3 {
+        font-size: 10px;
+    }
+   .Contatos > div > h3 >i {
+        margin-right: 10px;
+        font-size: 10px;
+    }
+   /*parte: projetos de pesquisa*/
+   .text-card > p{
+        font-size: 15px;
+    }
+     
+}
+
+
+@media  only screen and (max-width: 1000px) {
+    /*parte do hero*/
+    .img-hero > img{
+        height: 400px !important;
+        border-radius: 100%;
+    }
+    /*parte da educaçao*/
+    .p-educaçao {
+        text-align: center;
+        max-width: 800px;
+    }
+    .h1-educaçao {
+        font-size: 70px;
+    }
+    /*parte da area de interessses*/
+    .botoes-ai {
+      flex-direction: column;
+      height: 200px;
+      position: static !important;
+    }
+    .botoes-ai > div > a {
+        font-size: 35px !important;
+    }
+    .botoes-ai >  div > a:hover {
+        color: #04D9B2;
+        transition-duration: 0.5s;
+    }
+    /*parte: Projetos de pesquisa*/
+    .projetos {
+        height: 1280px !important;
+    }
+    .details-projeto {
+        height: 1280px !important;
+    }
+    
+   
+}
+@media  only screen and (max-width: 1300px) {
+    /*parte do hero*/
+    .img-hero > img {
+        height: 500px;
+    }
+    /*parte da educaçãoo*/
+    .p-educaçao {
+        text-align: center;
+        max-width: 800px;
+    }
+   
+}
+@media  only screen and (max-width: 1500px) {
+.img-hero > img {
+    height: 400px;
+}
+}

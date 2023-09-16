@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/*AQUI IREI MODELAR O CABEÇALHO E SEUS ELEMENTOS*/
+body {
+    font-family: Helvetica;
+    color: white;
+}
+.tudo {
+    max-width: 1240px;
+    margin: auto;
+    background-color: black;
+}
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid white;
+}
+.img-logo {
+    background-color: black;
+    height: 50px;
+    margin: 10px;
+}
+.links-logo {
+    margin-left: auto;
+    margin-right: 10px;
+}
+.links-logo > a {
+    margin-left: 20px;
+    color: white;
+}
+.links-logo > a:hover {
+    text-decoration: none;
+}
+/*AQUI IREI ORGANIZAR A MINHA SESSAO <MISSION E SEUS ELEMENTOS*/
+.mission {
+    background-image: url("resources/img-mission-background.webp");
+    height: 700px;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.div-mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    width: 1200px;
+    
+}
+.div-mission > h2, h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+ /*AQUI IREI ORGANIZAR A SECSSION MONTH */
+.section-month {
+    height: 1000px;
+    max-width: 1200px;
+}
+.text-month {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.imgs-month {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.imgs-month > div {
+    margin: 10px;
+    text-align: center;
+}
+.imgs-month > div > img{
+    height: 200px;
+    width: 300px;
+}
+/*AQUI IREI ORGAMIZAR A SESSAO DE LOCATIONS*/
+.locations {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1200px;
+    height: 500px;
+    margin: auto;
+    background-image: url("resources/img-locations-background.jpg");
+}
+.title-locations {
+    text-align: center;
+    font-size: 30px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+   
+}
+.cards > div{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around
+   
+}
+.cards > div > h3, p{
+    opacity: 50%;
+}
+/*AQUI IREI ORGANIZAR O MEU FOOTER*/
+footer {
+    padding: 10px;
+}
+footer > p{
+    margin: 10px 20px ;
+    text-align: left;
+}
+.footer  {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer > div {
+    margin: 10px;
+}

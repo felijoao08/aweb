@@ -1,0 +1,383 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: K2D;
+    src: url(fonte/K2D/K2D-Regular.ttf);
+}
+
+body {
+    font-family: K2D;
+    background-color: #0c0e13;
+}
+/*Aqui irei organizar a minha navbar*/
+.navbar {
+    background-color: #171C26;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header {
+    position: sticky;
+    top: 0;
+    box-shadow: 5px 5px 10px 0px rgb(0, 0, 0, 0.5);
+}
+.navbar > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 150px;
+    border-radius: 20px;
+}
+.navbar > div:hover {
+    font-size: 25px;
+    transition-duration: 0.3s;
+}
+.navbar > div > a {
+    color: white;
+    text-decoration: none;
+}
+.logo {
+    font-size: 50px;
+    color: #F2BA52;
+}
+
+
+
+/*Aqui irei organizar o meu hero*/
+.hero {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 900px;
+    max-width:1800px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hero-art {
+    background-image: url('arquivos/imagens/5053309.jpg');
+    max-width: 1800px;
+    height: 900px;
+    margin: auto;
+}
+.text-hero {
+    margin-left: 30px;
+}
+.text-hero > h1 {
+    font-size: 64px;
+    color: white;
+    margin-bottom: 20px;
+}
+.text-hero > p {
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 100px;
+}
+.img-hero > img {
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 100%;
+     padding: 10px;
+}
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+.botao > a {
+    text-decoration: none;
+    color: white;
+}
+.botao:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transition-duration: 0.5s;
+}
+
+
+
+/*Aqui irei organizar a sessao sobre mim e seus elementos*/
+.sobre-mim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-height: 800px;
+    height: 800px;
+    max-width: 1800px;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 200px;
+}
+.sobre-mim > article {
+    max-width: 1000px;
+    
+}
+.sobre-mim > article > h1 {
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.sobre-mim > article > p {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.imgs-sm > img {
+    height: 100px;
+    width: 100px;
+    padding: 3px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+
+
+/*Aqui irei oraganiar a sessao na escola*/
+.escola {
+    max-width: 1800px;
+    max-height: 1500px;
+    margin: auto;
+    background-color: #171C26;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.conteudo-escola {
+    max-width: 1400px;
+    margin: auto;
+    text-align: center;
+}
+.text-escola {
+    color: #F2BA52;
+}
+.text-escola > h1 {
+    font-size: 64px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.text-escola > p {
+    font-size: 20px;
+}
+.table {
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+table {
+    border-collapse: collapse;
+    margin: 50px 10px;
+}
+td, th{
+    width: 300px;
+    height: 40px;
+}
+.title-table {
+    background-color: white;
+    color: #171C26;
+}
+.fila-escura {
+    background-color: #f0af36;
+}
+.fila-clara {
+    background-color: #f3ca7e;
+}
+
+
+
+/*Aqui irei organizar a sessao curiosidades*/
+.section-curiosidades {
+    background-color: white;
+    margin: auto;
+    max-width: 1800px;
+    max-height: 3025px;
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+}
+.title-curiosidades {
+    text-align: center;
+    font-size: 64px;
+    padding-top: 70px;
+    margin-bottom: 30px;
+
+}
+.curiosidades {
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards {
+    width: 360px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 0px rgb(0, 0, 0, 0.5);
+}
+.img-card {
+    display: flex;
+    justify-content: center;
+    background-color: #171C26;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.img-card >  img {
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.text-card {
+    text-align: center;
+    margin: 10px;
+}
+.text-card > h1 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+
+/*Aqui irei organizar a parte dos meus hobs*/
+.hobbies {
+    margin: auto;
+    padding-bottom: 100px;
+    max-width: 1800px;
+    background-color: white;
+}
+.passando-tempo {
+    max-width: 1400px;
+    margin: auto;
+}
+.text-hobbies > h1{
+    font-size: 64px;
+    text-align: center;
+    margin-left: 30px;
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+.text-hobbies > p {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+.text-hobbies > h3 {
+    font-size: 15px;
+    text-align: center;
+    margin: 10px 10px 20px 10px;
+}
+video {
+    height: 500px
+}
+.FIFA {
+    display: block;
+    margin: auto;
+    max-width: 800px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 0px rgb(0, 0, 0, 0.5);
+}
+
+
+
+/*Aqui irei organizar a parte de contatos*/
+.contatos {
+    max-width: 1800px;
+    height: 250px;
+    margin: auto;
+    background-color: #171C26;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 5px solid #F2BA52;
+}
+.img-contatos {
+    height: 130px;
+    
+}
+.lista-contatos {
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.icones  {
+    margin-top: 15px;
+}
+.icones > a {
+    margin-right: 15px;
+    font-size: 30px;
+    margin-top: 10px;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    /*parte dos contatos*/
+    .contatos {
+        height: 300px;
+    }
+    .lista-contatos {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .img-contatos {
+        height: 100px;
+    }
+}
+/*AQUI IREI TRATAR DAS MEDIAS QUERIES*/
+@media only screen and (max-width: 800px) {
+    
+    /*parte do navbar*/
+    header {
+        height: 150px;
+        background-color: #171C26;
+    }
+    /*parte: passando o tempo*/
+    video {
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 950px){
+    /*parte do navbar*/
+    header {
+        height: 150px;
+        background-color: #171C26;  
+    }
+}
+@media only screen and (max-width: 1000px){
+    /*parte: curiosidades*/
+    .cards {
+        width: 370px;
+        height: 450px;
+    }
+    .text-card > p{
+        font-size: 20px;
+    }
+    /*Parte: passando o tempo*/
+    video {
+        height: 350px;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    /*parte: hero*/
+    .text-hero > p {
+        font-size: 25px;
+    }
+    .img-hero > img {
+        height: 250px;
+    }
+}
