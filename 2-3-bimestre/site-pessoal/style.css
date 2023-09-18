@@ -57,7 +57,7 @@ header {
     margin: auto;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 .hero-art {
     background-image: url('arquivos/imagens/5053309.jpg');
@@ -151,7 +151,7 @@ header {
     padding-bottom: 50px;
 }
 .conteudo-escola {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
     text-align: center;
 }
@@ -229,12 +229,14 @@ td, th{
     background-color: #171C26;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+    border-bottom: 8px  solid #F2BA52;
 }
 .img-card >  img {
     height: 200px;
     border-radius: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
+   border: 3px solid #F2BA52;
 }
 .text-card {
     text-align: center;
@@ -279,6 +281,19 @@ td, th{
 }
 video {
     height: 500px
+}
+.descriçao-FIFA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2BA52;
+    text-align: center;
+    max-width: 500px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid #171C26;
 }
 .FIFA {
     display: block;
@@ -370,6 +385,14 @@ video {
     /*Parte: passando o tempo*/
     video {
         height: 350px;
+    }
+    /*Parte: hero*/
+    .text-hero{
+        justify-content: center;
+        text-align: center;
+    }
+    .botao {
+        margin: auto;
     }
 }
 @media only screen and (max-width: 1500px) {

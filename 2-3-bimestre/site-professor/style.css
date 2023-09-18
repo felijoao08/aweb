@@ -34,7 +34,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 10px;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 .navbar > div >  a {
     margin-right: 20px;
@@ -43,7 +43,7 @@ header {
     color: white;
 }
 .navbar > div > a:hover {
-    animation-duration: 0.3s;
+    animation-duration: 1s;
     color: #04D9B2;
 }
 
@@ -59,7 +59,7 @@ header {
     align-items: center;
     justify-content: center;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 .details-hero {
     background-image: url("Imagens/vidraças-hero.png");
@@ -74,6 +74,24 @@ header {
     font-size: 32px;
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 100px;
+}
+.botao  {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #04d9b263;
+    border: 1px solid #011f267c;
+    border-radius: 30px;
+}
+.botao:hover {
+    background-color: #04D9B2;
+    transition-duration: 0.5s;
+}
+.botao > a {
+    text-decoration: none;
+    color: white;
 }
 .img-hero > img{
     height: 700px;
@@ -189,7 +207,7 @@ header {
 }
 .details-educaçao {
     height: 1025px;
-    background-color:  rgba(0, 0, 0, 0.6);
+    background-color:  rgba(0, 0, 0, 0.7);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -210,6 +228,72 @@ header {
 
 
 
+
+/*Aqui irei organizar a parte sobre os projetos de pesquisa*/
+.projetos {
+    background-color: #ffffff;
+    max-width: 1800px;
+    height: 1000px;
+    margin: auto;
+}
+.title-projetos {
+    text-align: center;
+    font-size: 64px;
+    color: #011F26;
+    padding-top: 90px;
+    margin-bottom: 30px;
+}
+.details-projeto {
+    background-color: #ffffff;
+    max-width: 1800px;
+    height: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.h1-projetos {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 64px;
+    color: white;
+}
+.card {
+    margin: 20px;
+    height: 600px;
+    max-width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    border-bottom: 10px solid #03A6A6;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    
+}
+.card-image{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-image: url("Imagens/card1.jpg");
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.details-card-image {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 200px;
+    max-width: 450px;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.text-card {
+    margin: 30px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
 /*Aqui irei organizar a parte sobre as disciplinas*/
 .disciplinas {
     background-color: white;
@@ -220,8 +304,14 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 20px;
+}
+.details-disciplinas {
+    background-image: url("Imagens/fundo-projeto.png");
+    max-width: 1800px;
+    height: 1025px;
+    margin: auto;
 }
 .h1-disciplinas {
     color: #0D0D0D;
@@ -241,11 +331,48 @@ header {
     height: 50px;
 }
 .fila-clara {
-    background-color: #04d9b2af;
+    background-color: #6ebdbd;
 }
 .fila-escura {
-    background-color: #037e8cbb;
+    background-color: #18363d;
 }
+
+/*Aqui irei organizar a galeria*/
+.jardel {
+    margin: auto;
+    max-width: 1800px;
+    height: 900px;
+    background-image: url("Imagens/fundo-projeto.png");
+   
+}
+.details-jardel {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    max-width: 1800px;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.galeria > div > img {
+    max-height: 350px;
+    max-width: 350px;
+    margin: 20px;
+    border-radius: 100%;
+    box-shadow: 0 0 20px #03A6A6;
+    flex-shrink: 1;
+}
+
+
+
+
 
 
 
@@ -282,76 +409,22 @@ footer {
 
 
 
-/*Aqui irei organizar a parte sobre os projetos de pesquisa*/
-.projetos {
-    background-image: url("Imagens/fundo-projeto.png");
-    max-width: 1800px;
-    height: 1000px;
-    margin: auto;
-
-}
-.details-projeto {
-    background-color: rgba(0, 0, 0, 0.5);
-    max-width: 1800px;
-    height: 1000px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.h1-projetos {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    font-size: 64px;
-    color: white;
-    padding-top: 100px;
-}
-.card {
-    margin: 20px;
-    height: 600px;
-    max-width: 450px;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    
-}
-.card-image{
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    background-image: url("Imagens/card1.jpg");
-    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
-}
-.details-card-image {
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 200px;
-    max-width: 450px;
-    font-size: 40px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-}
-.text-card {
-    margin: 30px 10px;
-    font-size: 20px;
-    text-align: center;
-}
-
-
-
-
 
 
 /*AQUI ESTOU CUIDANDO DE TODAS AD MIDIAS QUERIES*/
 @media only screen and (max-width: 500px){
+    /*Parte: hero*/
+    .text-sjardel > h1 {
+        font-size: 64px;
+    }
     /*parte sobre jardel*/
     .sobre-jardel {
         height: 1300px;
     }
     /*parte da areas de interessses*/
+    .text-ai {
+        font-size: 54px;
+    }
     .artigos > div {
         height: 750px;
     }
@@ -388,7 +461,6 @@ footer {
    .text-card > p{
         font-size: 15px;
     }
-     
 }
 
 
@@ -397,6 +469,12 @@ footer {
     .img-hero > img{
         height: 400px !important;
         border-radius: 100%;
+    }
+    .text-hero {
+        text-align: center;
+    }
+    .botao {
+        margin: auto;
     }
     /*parte da educaçao*/
     .p-educaçao {
@@ -421,13 +499,27 @@ footer {
     }
     /*parte: Projetos de pesquisa*/
     .projetos {
-        height: 1280px !important;
+        height: 2250px !important;
     }
     .details-projeto {
-        height: 1280px !important;
+        height: 2250px !important;
+        flex-direction: column;
+        align-items: center;
     }
-    
-   
+    .card {
+        max-width: 700px;
+    }
+    .card-image {
+        max-width: 700px;
+    }
+    .details-card-image {
+        max-width: 700px;
+    }
+    /*Parte: galeria*/
+    .galeria > div > img {
+        max-height: 200px;
+        max-width: 200px;
+    }
 }
 @media  only screen and (max-width: 1300px) {
     /*parte do hero*/
@@ -445,4 +537,13 @@ footer {
 .img-hero > img {
     height: 400px;
 }
+
+/*Parte: projetos*/
+.projetos {
+    height: 1600px;
+}
+.details-projeto {
+    height: 1600px;
+}
+
 }
