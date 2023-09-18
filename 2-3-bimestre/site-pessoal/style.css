@@ -11,6 +11,9 @@ body {
     font-family: K2D;
     background-color: #0c0e13;
 }
+html {
+    scroll-behavior: smooth;
+}
 /*Aqui irei organizar a minha navbar*/
 .navbar {
     background-color: #171C26;
@@ -60,7 +63,7 @@ header {
     flex-wrap: wrap-reverse;
 }
 .hero-art {
-    background-image: url('arquivos/imagens/5053309.jpg');
+    background-image: url('arquivos/imagens/fundo-hero.png');
     max-width: 1800px;
     height: 900px;
     margin: auto;
