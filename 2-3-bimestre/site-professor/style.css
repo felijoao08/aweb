@@ -11,6 +11,11 @@ body {
     font-family: K2D;
     background-color: #0D0D0D;
 }
+html {
+    scroll-behavior: smooth;
+}
+
+
 
 /*Aqui irei  organizar a navbar*/
 header {
@@ -62,7 +67,7 @@ header {
     flex-wrap: wrap-reverse;
 }
 .details-hero {
-    background-image: url("Imagens/vidraças-hero.png");
+    background-image: url("Imagens/fundo-projeto.png");
     max-width: 1800px;
     margin: auto;
 }
@@ -97,6 +102,7 @@ header {
     height: 700px;
     border-radius: 50%;
 }
+
 
 
 /*Aqui irei tratar da sessao sobre jardel*/
@@ -228,7 +234,6 @@ header {
 
 
 
-
 /*Aqui irei organizar a parte sobre os projetos de pesquisa*/
 .projetos {
     background-color: #ffffff;
@@ -252,16 +257,11 @@ header {
     justify-content: center;
     flex-wrap: wrap;
 }
-.h1-projetos {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    font-size: 64px;
-    color: white;
-}
+
 .card {
     margin: 20px;
-    height: 600px;
-    max-width: 450px;
+    height: 500px;
+    max-width: 350px;
     background-color: white;
     border-radius: 20px;
     border-bottom: 10px solid #03A6A6;
@@ -278,7 +278,7 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     height: 200px;
     max-width: 450px;
-    font-size: 40px;
+    font-size: 35px;
     color: white;
     display: flex;
     justify-content: center;
@@ -286,9 +286,17 @@ header {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
+.card:hover {
+    background-color: #03A6A6;
+    transition-duration: 1s;
+}
+.details-card-image:hover {
+    font-size: 40px;
+    transition-duration: 1s;
+}
 .text-card {
     margin: 30px 10px;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -337,12 +345,15 @@ header {
     background-color: #18363d;
 }
 
+
+
+
 /*Aqui irei organizar a galeria*/
 .jardel {
     margin: auto;
     max-width: 1800px;
     height: 900px;
-    background-image: url("Imagens/fundo-projeto.png");
+    background-image: url("Imagens/vidraças-hero.png");
    
 }
 .details-jardel {
@@ -364,17 +375,10 @@ header {
 .galeria > div > img {
     max-height: 350px;
     max-width: 350px;
-    margin: 20px;
+    margin: 0px 20px;
     border-radius: 100%;
-    box-shadow: 0 0 20px #03A6A6;
-    flex-shrink: 1;
+    box-shadow: 0 0 20px #011F26;
 }
-
-
-
-
-
-
 
 /*Aqui irei tratar da parte dos contatos*/
 footer {
@@ -508,12 +512,16 @@ footer {
     }
     .card {
         max-width: 700px;
+        height: 520px;
     }
     .card-image {
         max-width: 700px;
     }
     .details-card-image {
         max-width: 700px;
+    }
+    .text-card {
+        font-size: 20px;
     }
     /*Parte: galeria*/
     .galeria > div > img {
@@ -531,19 +539,19 @@ footer {
         text-align: center;
         max-width: 800px;
     }
-   
+    /*Parte: projetos*/
+    .projetos {
+        height: 1200px;
+    }
+    .details-projeto {
+        height: 1200px;
+    }
 }
 @media  only screen and (max-width: 1500px) {
 .img-hero > img {
     height: 400px;
 }
 
-/*Parte: projetos*/
-.projetos {
-    height: 1600px;
-}
-.details-projeto {
-    height: 1600px;
-}
+
 
 }
