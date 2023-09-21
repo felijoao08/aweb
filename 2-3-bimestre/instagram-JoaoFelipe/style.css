@@ -2,10 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.tudo {
-    max-width: 470px;
-    max-height: 930px;
-    margin: auto;
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 /*Aqui irei organizar o meu cabeçalho-sticke*/

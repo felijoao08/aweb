@@ -352,13 +352,20 @@ video {
     .text-hero {
         padding-bottom: 30px;
     }
+    .text-hero > h1 {
+        font-size: 35px;
+    }
     /*Parte: Navbar*/
     .navbar {
         height: 150px;
         background-color: #171C26;
     }
+    .navbar > div {
+        width: 120px;
+    }
     .navbar > div >  a {
         font-size: 15px;
+
     }
     /*Parte: sobre mim*/
     .text-sobremim > p{
