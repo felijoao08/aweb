@@ -33,7 +33,7 @@ header {
     align-items: center;
     justify-content: center;
     height: 80px;
-    width: 150px;
+    width: 75px;
     border-radius: 20px;
 }
 .navbar > div:hover {
@@ -341,7 +341,55 @@ video {
 }
 
 
-
+@media only screen and (max-width: 500px){
+    /*Parte: hero */
+    .hero {
+        height: 750px;
+    }
+    .hero-art {
+        height: 750px;
+    }
+    .text-hero {
+        padding-bottom: 30px;
+    }
+    /*Parte: Navbar*/
+    .navbar {
+        height: 150px;
+        background-color: #171C26;
+    }
+    .navbar > div >  a {
+        font-size: 15px;
+    }
+    /*Parte: sobre mim*/
+    .text-sobremim > p{
+        font-size: 20px !important;
+        margin: 10px;
+    }
+    /*Parte: na escola*/
+    .text-escola > p{
+        font-size: 15px !important;
+    }
+    /*Parte: Curiosidades */
+    .cards {
+        height: 320px !important;
+        max-width: 400px;
+    }
+    .img-card > img{
+        height: 130px;
+    }
+    .text-card > p {
+        font-size: 15px !important;
+        
+    }
+    /*Parte: hobbbies*/
+    .FIFA {
+        width: 300px !important;
+        height: 300px !important;
+    }
+    .descriçao-FIFA {
+        margin: 10px;
+    }
+}
 @media only screen and (max-width: 700px) {
     /*parte dos contatos*/
     .contatos {
@@ -359,23 +407,12 @@ video {
 /*AQUI IREI TRATAR DAS MEDIAS QUERIES*/
 @media only screen and (max-width: 800px) {
     
-    /*parte do navbar*/
-    header {
-        height: 150px;
-        background-color: #171C26;
-    }
     /*parte: passando o tempo*/
     video {
         height: 300px;
     }
 }
-@media only screen and (max-width: 950px){
-    /*parte do navbar*/
-    header {
-        height: 150px;
-        background-color: #171C26;  
-    }
-}
+
 @media only screen and (max-width: 1000px){
     /*parte: curiosidades*/
     .cards {

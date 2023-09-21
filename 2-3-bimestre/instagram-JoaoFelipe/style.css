@@ -10,13 +10,18 @@
 }
 /*Aqui irei organizar o meu cabeçalho-sticke*/
 header {
+    max-width: 470px;
     background-color: white;
     font-size: 15px;
-    
     margin-top: 11px;
     position: sticky;
     top: 0;
     z-index: 1;
+    margin: auto;
+}
+main {
+    max-width: 470px;
+    margin: auto;
 }
 .cabeçalho {
     align-items: center;
@@ -159,6 +164,8 @@ footer {
     position: sticky;
     bottom: 0;
     background-color: white;
+    margin: auto;
+    max-width: 470px;
 }
 .barra-inferior {
     display: flex;
