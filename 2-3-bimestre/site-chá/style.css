@@ -11,7 +11,9 @@ body {
     max-width: 1240px;
     margin: auto;
     background-color: black;
+    z-index: 2;
 }
+
 header {
     background-color: black;
     display: flex;
@@ -19,6 +21,9 @@ header {
     position: sticky;
     top: 0;
     border-bottom: 1px solid white;
+}
+nav {
+    background-color: black;
 }
 .img-logo {
     background-color: black;
@@ -38,6 +43,8 @@ header {
 }
 /*AQUI IREI ORGANIZAR A MINHA SESSAO <MISSION E SEUS ELEMENTOS*/
 .mission {
+    opacity: 0.5;
+    z-index: 2;
     background-image: url("resources/img-mission-background.webp");
     height: 700px;
     display: flex;
@@ -69,8 +76,10 @@ header {
 .text-month {
     text-align: center;
     margin-bottom: 10px;
+    opacity: 0.5;
 }
 .imgs-month {
+    opacity: 0.5;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -78,6 +87,7 @@ header {
 .imgs-month > div {
     margin: 10px;
     text-align: center;
+    
 }
 .imgs-month > div > img{
     height: 200px;
@@ -85,6 +95,7 @@ header {
 }
 /*AQUI IREI ORGAMIZAR A SESSAO DE LOCATIONS*/
 .locations {
+    opacity: 0.5;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -113,9 +124,7 @@ header {
     justify-content: space-around
    
 }
-.cards > div > h3, p{
-    opacity: 50%;
-}
+
 /*AQUI IREI ORGANIZAR O MEU FOOTER*/
 footer {
     padding: 10px;
@@ -123,6 +132,13 @@ footer {
 footer > p{
     margin: 10px 20px ;
     text-align: left;
+    opacity: 0.5;
+}
+.footer > div > h1 {
+    opacity: 0.5;
+}
+.footer > div > h5 {
+    opacity: 0.5;
 }
 .footer  {
     height: 200px;
