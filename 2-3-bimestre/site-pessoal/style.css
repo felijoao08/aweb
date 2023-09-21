@@ -372,11 +372,20 @@ video {
         font-size: 20px !important;
         margin: 10px;
     }
+    .text-sobremim > h1 {
+        font-size: 40px !important;
+    }
     /*Parte: na escola*/
+    .text-escola > h1 {
+        font-size: 40px;
+    }
     .text-escola > p{
         font-size: 15px !important;
     }
     /*Parte: Curiosidades */
+    .title-curiosidades {
+        font-size: 40px;
+    }
     .cards {
         height: 320px !important;
         max-width: 400px;
@@ -395,6 +404,9 @@ video {
     }
     .descriçao-FIFA {
         margin: 10px;
+    }
+    .text-hobbies > h1 { 
+        font-size: 40px;
     }
 }
 @media only screen and (max-width: 700px) {
