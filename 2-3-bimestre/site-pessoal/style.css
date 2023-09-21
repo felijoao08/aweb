@@ -266,14 +266,12 @@ td, th{
 .text-hobbies > h1{
     font-size: 64px;
     text-align: center;
-    margin-left: 30px;
     padding-top: 100px;
     margin-bottom: 30px;
 }
 .text-hobbies > p {
     font-size: 20px;
     text-align: center;
-    margin-left: 30px;
     margin-right: 10px;
     margin-bottom: 50px;
 }
@@ -362,10 +360,15 @@ video {
     }
     .navbar > div {
         width: 120px;
+        height: 50px;
     }
     .navbar > div >  a {
         font-size: 15px;
 
+    }
+    .navbar > div:hover {
+        background-color: #f0af36;
+        transition-duration: 1s;
     }
     /*Parte: sobre mim*/
     .text-sobremim > p{

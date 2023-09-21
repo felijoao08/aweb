@@ -38,6 +38,7 @@ main {
 .Meus-dados {
     display: flex;
     align-items: center;
+    max-width: 470px;
 }
 .img-perfil {
     border-radius: 60px;
@@ -80,6 +81,7 @@ main {
     font-size: 14px;
     margin-left: 20px;
     margin-top: 30px;
+    max-width: 470px;
 }
 .botoes-grandes > div {
     display: flex;
@@ -134,6 +136,7 @@ main {
 .barra-meio-fixa {
     position: sticky;
     top: 40px;
+    max-width: 470px;
 }
 .barra-meio {
     padding-top: 10px;
@@ -150,6 +153,7 @@ main {
     margin-top: 1px;
     display: flex;
     flex-wrap: wrap;
+    max-width: 470px;
 }
 .meu-feed > img {
     height: 155px;
