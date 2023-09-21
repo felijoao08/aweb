@@ -38,7 +38,8 @@ main {
 .Meus-dados {
     display: flex;
     align-items: center;
-    max-width: 470px;
+    max-width: 265px;
+   
 }
 .img-perfil {
     border-radius: 60px;
@@ -67,7 +68,9 @@ main {
 }
 .Dados-sociais {
     display: flex;
-    margin-left: 70px;
+    margin-left: 40px;
+    max-width: 265px;
+ 
 }
 .PSS1, .PSS2, .PSS3{
     text-align: center;
@@ -159,6 +162,7 @@ main {
     height: 155px;
     width: 155px;
     margin: 0.5px;
+    
 }
 /*Aqui irei organizar a barra fixa inferior*/
 footer {
