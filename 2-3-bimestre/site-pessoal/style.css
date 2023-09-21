@@ -352,6 +352,10 @@ video {
     }
     .text-hero > h1 {
         font-size: 35px;
+        margin-left: 0;
+    }
+    .botao { 
+        margin-left: 0;
     }
     /*Parte: Navbar*/
     .navbar {
